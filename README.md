@@ -1,14 +1,14 @@
 # APIstaffs
 
-#Worker's route
+#Staffs's route
 -----
 
 
-GET	         /users		=>	Get all users
+GET :::        /users		=>	Get all users
 
-POST	       /users		=>	Add new user users
+POST	:::       /users		=>	Add new user users
 
-GET	         /users?id=1	=>	Get a user
+GET	 :::        /users?id=1	=>	Get a user
 
 PUT	         /users?id=1	=>	Update a user
 
