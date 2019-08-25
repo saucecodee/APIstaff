@@ -34,7 +34,8 @@ class Staff {
           return new Promise((resolve, rej) => {
                this.findStaff(id)
                     .then((data) => {
-                         if (data.index) {
+                         console.log(data.index, "index")
+                         if (data.index >= 0) {
                               staffs.splice(data.index, 1, staff)
                               fs.writeFile("./data/staffs.json", JSON.stringify(staffs, null, 2), (err) => { if (err) console.log(err); });
                               resolve(staffs[data.index])

@@ -1,6 +1,7 @@
 const { createServer } = require('http')
 const { parse } = require('url')
 const { StringDecoder } = require('string_decoder');
+const config = require('./lib/config');
 const routeHandler = require('./lib/routeHandler')
 const utility = require('./lib/utility');
 
@@ -48,6 +49,6 @@ const router = {
      'staffs': routeHandler.staffs
 };
 
-server.listen(3030, () => {
-     console.log("server is running on port 3030...")
+server.listen(config.port, () => {
+     console.log(`server is running on port ${config.port}...`)
 })

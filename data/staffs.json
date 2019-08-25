@@ -1,27 +1,38 @@
 [
   {
     "id": 1,
-    "name": "User1",
+    "name": "User 1",
+    "dept": "Genesys",
     "phone": "08029345990"
   },
   {
     "id": 2,
-    "name": "User2",
+    "name": "User 2",
+    "dept": "Genesys",
     "phone": "08029345990"
   },
   {
     "id": 3,
-    "name": "User 3r4",
+    "name": "User 3",
+    "dept": "Tenece",
     "phone": "08029345990"
   },
   {
     "id": 4,
     "name": "User 4",
+    "dept": "PEWA",
     "phone": "08029345990"
   },
   {
     "id": 5,
     "name": "User 5",
+    "dept": "Genesys",
+    "phone": "08029345990"
+  },
+  {
+    "id": 1,
+    "name": "User 1",
+    "dept": "Genesys",
     "phone": "08029345990"
   }
 ]

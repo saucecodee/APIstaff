@@ -21,7 +21,7 @@ async function getStaffs() {
                          <div class="card-c-details">
                               <div class="card-c-country">
                                    <span>Dept</span>
-                                   <h3>${staff.id}</h3>
+                                   <h3>${staff.dept}</h3>
                               </div>
                               <div class="card-c-position">
                                    <span>Phone no</span>
