@@ -4,12 +4,12 @@
 -----
 
 
-GET ::  /users		=>	Get all users
+GET ::  /users		=>	Get all staffs
 
-POST  ::  /users		=>	Add new user users
+POST  ::  /users		=>	Add new user staff
 
-GET :: /users?id=1	=>	Get a user
+GET :: /users?id=1	=>	Get a staff with id 1
 
-PUT ::  /users?id=1	=>	Update a user
+PUT ::  /users?id=1	=>	Update a staff with id 1
 
-DELETE  ::  /users?id=1	=>	Delete a user
+DELETE  ::  /users?id=1	=>	Delete a staff with id 1
