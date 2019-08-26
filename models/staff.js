@@ -3,12 +3,6 @@ const path = require('path')
 const staffs = JSON.parse(fs.readFileSync(path.resolve(__dirname, '../data/staffs.json'), 'utf8'))
 
 class Staff {
-     constructor(name, phone) {
-          this.staffId;
-          this.name = name;
-          this.phon = phone;
-     }
-
      async getStaffs() {
           return await staffs
      }

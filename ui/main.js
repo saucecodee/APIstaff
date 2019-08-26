@@ -36,7 +36,7 @@ async function getStaffs() {
 }
 
 function deleteStaff(id) {
-     return fetch(url + `?id=${id}`, {
+     return fetch(url + `?id=${id}`, { 
           method: 'DELETE'
      })
 }
